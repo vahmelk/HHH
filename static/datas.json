@@ -1,0 +1,1010 @@
+[
+    {
+        "name": "An Introduction to JavaScript",
+        "link": "intro",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Manuals and specifications",
+        "link": "manuals-specifications",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Code editors",
+        "link": "code-editors",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Developer console",
+        "link": "devtools",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Hello, world!",
+        "link": "hello-world",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Code structure",
+        "link": "structure",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "The modern mode, \"use strict\"",
+        "link": "strict-mode",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Variables",
+        "link": "variables",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Data types",
+        "link": "types",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Type Conversions",
+        "link": "type-conversions",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Operators",
+        "link": "operators",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Comparisons",
+        "link": "comparison",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Interaction: alert, prompt, confirm",
+        "link": "alert-prompt-confirm",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Conditional operators: if, \"?\"",
+        "link": "ifelse",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Logical operators",
+        "link": "logical-operators",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Loops: while and for",
+        "link": "while-for",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "The \"switch\" statement",
+        "link": "switch",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Functions",
+        "link": "function-basics",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Function expressions",
+        "link": "function-expressions",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Arrow functions, the basics",
+        "link": "arrow-functions-basics",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "JavaScript specials",
+        "link": "javascript-specials",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Debugging in Chrome",
+        "link": "debugging-chrome",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Coding Style",
+        "link": "coding-style",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Comments",
+        "link": "comments",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Ninja code",
+        "link": "ninja-code",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Automated testing with Mocha",
+        "link": "testing-mocha",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Polyfills",
+        "link": "polyfills",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Objects",
+        "link": "object",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Garbage collection",
+        "link": "garbage-collection",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Symbol type",
+        "link": "symbol",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Object methods, \"this\"",
+        "link": "object-methods",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Object to primitive conversion",
+        "link": "object-toprimitive",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Constructor, operator \"new\"",
+        "link": "constructor-new",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Methods of primitives",
+        "link": "primitives-methods",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Numbers",
+        "link": "number",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Strings",
+        "link": "string",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Arrays",
+        "link": "array",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Array methods",
+        "link": "array-methods",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Iterables",
+        "link": "iterable",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Map and Set",
+        "link": "map-set",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "WeakMap and WeakSet",
+        "link": "weakmap-weakset",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Object.keys, values, entries",
+        "link": "keys-values-entries",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Destructuring assignment",
+        "link": "destructuring-assignment",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Date and time",
+        "link": "date",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "JSON methods, toJSON",
+        "link": "json",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Recursion and stack",
+        "link": "advanced-functions",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Rest parameters and spread syntax",
+        "link": "rest-parameters-spread-operator",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Variable scope",
+        "link": "closure",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "The old \"var\"",
+        "link": "var",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Global object",
+        "link": "global-object",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Function object, NFE",
+        "link": "function-object",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "The \"new Function\" syntax",
+        "link": "new-function",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Scheduling: setTimeout and setInterval",
+        "link": "settimeout-setinterval",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Decorators and forwarding, call/apply",
+        "link": "call-apply-decorators",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Function binding",
+        "link": "bind",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Arrow functions revisited",
+        "link": "arrow-functions",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Property flags and descriptors",
+        "link": "property-descriptors",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Property getters and setters",
+        "link": "property-accessors",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Prototypal inheritance",
+        "link": "prototype-inheritance",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "F.prototype",
+        "link": "function-prototype",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Native prototypes",
+        "link": "native-prototypes",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Prototype methods, objects without __proto__",
+        "link": "prototype-methods",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Class basic syntax",
+        "link": "class",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Class inheritance",
+        "link": "class-inheritance",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Static properties and methods",
+        "link": "static-properties-methods",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Private and protected properties and methods",
+        "link": "private-protected-properties-methods",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Extending built-in classes",
+        "link": "extend-natives",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Class checking: \"instanceof\"",
+        "link": "instanceof",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Mixins",
+        "link": "mixins",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Error handling, \"try..catch\"",
+        "link": "try-catch",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Custom errors, extending Error",
+        "link": "custom-errors",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Introduction: callbacks",
+        "link": "callbacks",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Promise",
+        "link": "promise-basics",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Promises chaining",
+        "link": "promise-chaining",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Error handling with promises",
+        "link": "promise-error-handling",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Promise API",
+        "link": "promise-api",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Promisification",
+        "link": "promisify",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Microtasks",
+        "link": "microtask-queue",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Async/await",
+        "link": "async-await",
+        "done": true,
+        "part": 1
+    },
+    {
+        "name": "Generators",
+        "link": "generators",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Async iterators and generators",
+        "link": "async-iterators-generators",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Modules, introduction",
+        "link": "modules-intro",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Export and Import",
+        "link": "import-export",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Dynamic imports",
+        "link": "modules-dynamic-imports",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Proxy and Reflect",
+        "link": "proxy",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Eval: run a code string",
+        "link": "eval",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Currying",
+        "link": "currying-partials",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "BigInt",
+        "link": "bigint",
+        "done": false,
+        "part": 1
+    },
+    {
+        "name": "Browser environment, specs",
+        "link": "browser-environment",
+        "done": true,
+        "part": 2
+    },
+    {
+        "name": "DOM tree",
+        "link": "dom-nodes",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Walking the DOM",
+        "link": "dom-navigation",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Searching: getElement*, querySelector*",
+        "link": "searching-elements-dom",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Node properties: type, tag and contents",
+        "link": "basic-dom-node-properties",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Attributes and properties",
+        "link": "dom-attributes-and-properties",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Modifying the document",
+        "link": "modifying-document",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Styles and classes",
+        "link": "styles-and-classes",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Element size and scrolling",
+        "link": "size-and-scroll",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Window sizes and scrolling",
+        "link": "size-and-scroll-window",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Coordinates",
+        "link": "coordinates",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Introduction to browser events",
+        "link": "introduction-browser-events",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Bubbling and capturing",
+        "link": "bubbling-and-capturing",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Event delegation",
+        "link": "event-delegation",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Browser default actions",
+        "link": "default-browser-action",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Dispatching custom events",
+        "link": "dispatch-events",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Mouse events basics",
+        "link": "mouse-events-basics",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Moving the mouse: mouseover/out, mouseenter/leave",
+        "link": "mousemove-mouseover-mouseout-mouseenter-mouseleave",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Drag\"n\"Drop with mouse events",
+        "link": "mouse-drag-and-drop",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Keyboard: keydown and keyup",
+        "link": "keyboard-events",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Scrolling",
+        "link": "onscroll",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Form properties and methods",
+        "link": "form-elements",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Focusing: focus/blur",
+        "link": "focus-blur",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Events: change, input, cut, copy, paste",
+        "link": "events-change-input",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Forms: event and method submit",
+        "link": "forms-submit",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Page: DOMContentLoaded, load, beforeunload, unload",
+        "link": "onload-ondomcontentloaded",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Scripts: async, defer",
+        "link": "script-async-defer",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Resource loading: onload and onerror",
+        "link": "onload-onerror",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Mutation observer",
+        "link": "mutation-observer",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Selection and Range",
+        "link": "selection-range",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Event loop: microtasks and macrotasks",
+        "link": "event-loop",
+        "done": false,
+        "part": 2
+    },
+    {
+        "name": "Popups and window methods",
+        "link": "popup-windows",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Cross-window communication",
+        "link": "cross-window-communication",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "The clickjacking attack",
+        "link": "clickjacking",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "ArrayBuffer, binary arrays",
+        "link": "arraybuffer-binary-arrays",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "TextDecoder and TextEncoder",
+        "link": "text-decoder",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Blob",
+        "link": "blob",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "File and FileReader",
+        "link": "file",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Fetch",
+        "link": "fetch",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "FormData",
+        "link": "formdata",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Fetch: Download progress",
+        "link": "fetch-progress",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Fetch: Abort",
+        "link": "fetch-abort",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Fetch: Cross-Origin Requests",
+        "link": "fetch-crossorigin",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Fetch API",
+        "link": "fetch-api",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "URL objects",
+        "link": "url",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "XMLHttpRequest",
+        "link": "xmlhttprequest",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Resumable file upload",
+        "link": "resume-upload",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Long polling",
+        "link": "long-polling",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "WebSocket",
+        "link": "websocket",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Server Sent Events",
+        "link": "server-sent-events",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Cookies, document.cookie",
+        "link": "cookie",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "LocalStorage, sessionStorage",
+        "link": "localstorage",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "IndexedDB",
+        "link": "indexeddb",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Bezier curve",
+        "link": "bezier-curve",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "CSS-animations",
+        "link": "css-animations",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "JavaScript animations",
+        "link": "js-animation",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "From the orbital height",
+        "link": "webcomponents-intro",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Custom elements",
+        "link": "custom-elements",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Shadow DOM",
+        "link": "shadow-dom",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Template element",
+        "link": "template-element",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Shadow DOM slots, composition",
+        "link": "slots-composition",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Shadow DOM styling",
+        "link": "shadow-dom-style",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Shadow DOM and events",
+        "link": "shadow-dom-events",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Patterns and flags",
+        "link": "regexp-introduction",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Character classes",
+        "link": "regexp-character-classes",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Unicode: flag \"u\" and class p{...}",
+        "link": "regexp-unicode",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Anchors: string start ^ and end $",
+        "link": "regexp-anchors",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Multiline mode of anchors ^ $, flag \"m\"",
+        "link": "regexp-multiline-mode",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Word boundary: \\b",
+        "link": "regexp-boundary",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Escaping, special characters",
+        "link": "regexp-escaping",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Sets and ranges [...]",
+        "link": "regexp-character-sets-and-ranges",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Quantifiers +, *, ? and {n}",
+        "link": "regexp-quantifiers",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Greedy and lazy quantifiers",
+        "link": "regexp-greedy-and-lazy",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Capturing groups",
+        "link": "regexp-groups",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Backreferences in pattern: N and k<\"name\">",
+        "link": "regexp-backreferences",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Alternation (OR) |",
+        "link": "regexp-alternation",
+        "done": true,
+        "part": 3
+    },
+    {
+        "name": "Lookahead and lookbehind",
+        "link": "regexp-lookahead-lookbehind",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Catastrophic backtracking",
+        "link": "regexp-catastrophic-backtracking",
+        "done": false,
+        "part": 3
+    },
+    {
+        "name": "Sticky flag \"y\", searching at position",
+        "link": "regexp-sticky",
+        "done": true,
+        "part": 3
+    },
+    {
+        "name": "Methods of RegExp and String",
+        "link": "regexp-methods",
+        "done": false,
+        "part": 3
+    }
+]
