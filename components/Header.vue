@@ -174,7 +174,9 @@ export default {
         },
         changeTopicDone() {
             this.$axios
-                .$get(`/setTopicDone?link=${this.topic.link}`)
+                .$get(
+                    `https://5orce.sse.codesandbox.io/setTopicDone?link=${this.topic.link}`
+                )
                 .then(() => {
                     store.dispatch('reload').then(() => {
                         this.$emit('update')
