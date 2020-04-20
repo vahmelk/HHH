@@ -82,8 +82,5 @@ module.exports = {
 
             // ....
         }
-    },
-    generate: {
-        routes: ['/8b6982178fc574ac8f8ed05b6cba93de']
     }
 }
