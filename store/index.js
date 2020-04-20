@@ -1,12 +1,14 @@
 import Vuex from 'vuex'
 import tasks from '~/static/datas'
+import time from '~/static/time'
 
 export const store = new Vuex.Store({
     state: {
         page: '',
         token: '',
         topic: null,
-        tasks
+        tasks,
+        time
     },
     mutations: {
         SET_PAGE(state, { token, page }) {

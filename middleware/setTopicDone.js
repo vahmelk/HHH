@@ -18,7 +18,17 @@ export default function(req, res, next) {
         )
         console.log('asdd')
         res.end()
+    } else if (req.path === '/setTime') {
+        const time = req.query.time
+        fs.writeFile(
+            __dirname + '/../static/time.json',
+            JSON.stringify(time, null, 4),
+            err => {
+                if (err) console.log(err + data)
+            }
+        )
+        console.log('timedone')
+        res.end()
     }
-
     next()
 }

@@ -144,7 +144,7 @@ export default {
     },
     data() {
         return {
-            time: 120,
+            time: store.state.time,
             currentState: {
                 isWorking: false,
                 text: ['Շարունակել', 'Դադարեցնել']
@@ -153,6 +153,15 @@ export default {
             done: ['yellow', 'greenyellow', 'lightblue'],
             notDone: ['black', 'darkgrey', 'darkslategray']
         }
+    },
+    beforeDestroy() {
+        this.$axios
+            .$get(`https://5orce.sse.codesandbox.io/setTime?time=${this.time}`)
+            .then(() => {
+                store.dispatch('reload').then(() => {
+                    this.$emit('update')
+                })
+            })
     },
     methods: {
         scrollStars(event) {
