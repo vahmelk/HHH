@@ -17,7 +17,7 @@ export default function(req, res, next) {
             }
         )
         console.log('asdd')
-        res.end()
+        return
     }
 
     next()
