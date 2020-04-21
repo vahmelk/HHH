@@ -173,7 +173,7 @@ export default {
             } else {
                 clearInterval(this.ticker)
                 this.$axios.$get(
-                    `https://6ji5c.sse.codesandbox.io/setTime?time=${this.time}`
+                    `https://5orce.sse.codesandbox.io/setTime?time=${this.time}`
                 )
             }
         },
@@ -183,7 +183,7 @@ export default {
         changeTopicDone() {
             this.$axios
                 .$get(
-                    `https://6ji5c.sse.codesandbox.io/setTopicDone?link=${this.topic.link}`
+                    `https://5orce.sse.codesandbox.io/setTopicDone?link=${this.topic.link}`
                 )
                 .then(() => {
                     store.dispatch('reload').then(() => {
