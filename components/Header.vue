@@ -95,7 +95,7 @@
                             :target="'tooltip-button-not-interactive' + index"
                             noninteractive
                             ><code class="-white"
-                                >{{ task.name }}
+                                >{{ index }}){{ task.name }}
                                 <br />
                                 {{ `${task.done ? 'Ապրես(🥰)' : ''}` }}
                             </code>
@@ -155,13 +155,9 @@ export default {
         }
     },
     beforeDestroy() {
-        this.$axios
-            .$get(`https://5orce.sse.codesandbox.io/setTime?time=${this.time}`)
-            .then(() => {
-                store.dispatch('reload').then(() => {
-                    this.$emit('update')
-                })
-            })
+        this.$axios.$get(
+            `https://6ji5c.sse.codesandbox.io/setTime?time=${this.time}`
+        )
     },
     methods: {
         scrollStars(event) {
@@ -172,10 +168,13 @@ export default {
             this.currentState.isWorking = !this.currentState.isWorking
             if (this.currentState.isWorking) {
                 this.ticker = setInterval(() => {
-                    this.time = +(this.time + 0.1).toFixed(1)
+                    this.time = +(+this.time + 0.1).toFixed(1)
                 }, 10000)
             } else {
                 clearInterval(this.ticker)
+                this.$axios.$get(
+                    `https://6ji5c.sse.codesandbox.io/setTime?time=${this.time}`
+                )
             }
         },
         changeLinkTo(link) {
@@ -184,7 +183,7 @@ export default {
         changeTopicDone() {
             this.$axios
                 .$get(
-                    `https://5orce.sse.codesandbox.io/setTopicDone?link=${this.topic.link}`
+                    `https://6ji5c.sse.codesandbox.io/setTopicDone?link=${this.topic.link}`
                 )
                 .then(() => {
                     store.dispatch('reload').then(() => {

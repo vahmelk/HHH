@@ -14,67 +14,67 @@
     {
         "name": "Code editors",
         "link": "code-editors",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Developer console",
         "link": "devtools",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Hello, world!",
         "link": "hello-world",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Code structure",
         "link": "structure",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "The modern mode, \"use strict\"",
         "link": "strict-mode",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Variables",
         "link": "variables",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Data types",
         "link": "types",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Type Conversions",
         "link": "type-conversions",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Operators",
         "link": "operators",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Comparisons",
         "link": "comparison",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
         "name": "Interaction: alert, prompt, confirm",
         "link": "alert-prompt-confirm",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
@@ -92,7 +92,7 @@
     {
         "name": "Loops: while and for",
         "link": "while-for",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
@@ -470,7 +470,7 @@
     {
         "name": "Async/await",
         "link": "async-await",
-        "done": true,
+        "done": false,
         "part": 1
     },
     {
@@ -530,7 +530,7 @@
     {
         "name": "Browser environment, specs",
         "link": "browser-environment",
-        "done": true,
+        "done": false,
         "part": 2
     },
     {
@@ -980,7 +980,7 @@
     {
         "name": "Alternation (OR) |",
         "link": "regexp-alternation",
-        "done": true,
+        "done": false,
         "part": 3
     },
     {
@@ -998,7 +998,7 @@
     {
         "name": "Sticky flag \"y\", searching at position",
         "link": "regexp-sticky",
-        "done": true,
+        "done": false,
         "part": 3
     },
     {
